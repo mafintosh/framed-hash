@@ -6,6 +6,8 @@ A hash function that wraps all input chunks with a length prefix.
 npm install framed-hash
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/framed-hash.svg?style=flat)](http://travis-ci.org/mafintosh/framed-hash)
+
 ## Usage
 
 ``` js
