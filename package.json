@@ -1,7 +1,7 @@
 {
   "name": "framed-hash",
   "version": "1.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "A hash function that wraps all input chunks with a length prefix.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
