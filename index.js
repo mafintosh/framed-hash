@@ -1,8 +1,8 @@
-var crypto = require('crypto')
+var nCrypto = require('native-crypto')
 
 var FramedHash = function (algo) {
   if (!(this instanceof FramedHash)) return new FramedHash(algo)
-  this.hash = crypto.createHash(algo)
+  this.hash = new nCrypto.Hash(algo)
 }
 
 FramedHash.prototype.update = function (data) {
